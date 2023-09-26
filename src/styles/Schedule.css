@@ -1,0 +1,98 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 10px;
+  background-color: white;
+  padding: 10px;
+  position: absolute;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+table {
+  font-size: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.table-headers {
+  background-color: rgb(54, 73, 88);
+  color: white;
+  text-shadow: 1 1 0 black;
+}
+
+a.nav-link {
+  color: black;
+  font-size: 20px;
+}
+
+a.nav-link:hover {
+  font-weight: bold;
+  color: black;
+}
+
+.table-rows:hover {
+  background-color: rgb(232, 241, 250);
+}
+
+.table-course-name {
+  text-transform: capitalize;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.table-course-description {
+  text-transform: capitalize;
+  text-align: left;
+  width: 800px;
+}
+
+.table-course-subject {
+  text-transform: capitalize;
+  text-align: center;
+  vertical-align: middle;
+  width: 150px;
+}
+
+.table-course-section {
+  width: 150px;
+  vertical-align: middle;
+}
+
+.col-1 {
+  width: 120%;
+  border: 2px solid black;
+}
+
+.col-11 {
+  width: 100%;
+  height: 900px;
+  border: 2px solid black;
+}
+
+/* Media styling */
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Force table to not be like tables anymore */
+  table {
+    height: 20px;
+    width: 300px;
+    font-size: 15px;
+  }
+
+  .table-course-section {
+    width: 10px;
+    vertical-align: middle;
+  }
+
+  .col-1 {
+    width: 10%;
+    border: 2px solid black;
+  }
+}

@@ -1,0 +1,118 @@
+.about {
+  display: flexbox;
+  align-items: center;
+  text-align: center;
+  background-color: whitesmoke;
+  background-size: contain;
+}
+
+.about-h1 {
+  font-size: 45px;
+}
+
+.about-h5 {
+  font-size: 25px;
+}
+
+.about-h4 {
+  font-style: italic;
+  font-size: 25px;
+}
+
+.about-p {
+  font-size: 25px;
+}
+
+.about-image {
+  border-radius: 10px;
+  margin: 20px;
+  height: 350px;
+}
+
+#linkedin {
+  font-size: 40px;
+  background: transparent;
+  border: transparent;
+  vertical-align: middle;
+  color: black;
+}
+
+#linkedin:hover {
+  text-decoration: none;
+  color: rgb(72, 71, 71);
+  outline-color: #000000;
+}
+
+#github {
+  font-size: 40px;
+  background: transparent;
+  border: transparent;
+  vertical-align: middle;
+  color: black;
+}
+
+#github:hover {
+  text-decoration: none;
+  color: rgb(72, 71, 71);
+  outline-color: #000000;
+}
+
+#email {
+  font-size: 40px;
+  background: transparent;
+  border: transparent;
+  vertical-align: middle;
+  color: black;
+}
+
+#email.a {
+  text-decoration: none;
+  color: black;
+  outline-color: #000000;
+}
+
+#email:hover {
+  text-decoration: none;
+  color: rgb(72, 71, 71);
+  outline-color: #000000;
+}
+
+.contact-button {
+  background: transparent;
+  border: none;
+}
+
+.icons {
+  height: 70px;
+  margin: 10px;
+}
+
+/* Media styling */
+@media only screen and (max-width: 450px) {
+  .icons {
+    height: 50px;
+    margin: 10px;
+  }
+
+  .about-h1 {
+    font-size: 40px;
+  }
+
+  .about-h5 {
+    font-size: 20px;
+  }
+
+  .about-h4 {
+    font-style: italic;
+  }
+
+  .about-p {
+    font-size: 20px;
+  }
+
+  .about-image {
+    border-radius: 10px;
+    margin: 20px;
+    height: 300px;
+  }
+}

@@ -1,0 +1,7 @@
+.calendar-modal.closed {
+  display: none;
+}
+
+#calendar-modal-body {
+  align-self: center;
+}
