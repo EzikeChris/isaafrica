@@ -2,9 +2,9 @@
 Course Managment website built with Reactjs EmotionUI Boostrapp MUI
 
 <picture>
-   <img alt="Sway VSCode Plugin" src="./images/img1.png">
-    <img alt="Sway VSCode Plugin" src="./images/img2.png">
-     <img alt="Sway VSCode Plugin" src="./images/img3.png">
+   <img alt="Sway VSCode Plugin" src="src/images/img1.png">
+    <img alt="Sway VSCode Plugin" src="src/images/img2.png">
+     <img alt="Sway VSCode Plugin" src="src/images/img3.png">
 </picture>
 
 # MockAPI Integration
